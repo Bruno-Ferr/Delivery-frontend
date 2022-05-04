@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Login } from './pages/Login';
+import { App } from './pages/App';
 
 
 const root = ReactDOM.createRoot(
@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>
 );
 
