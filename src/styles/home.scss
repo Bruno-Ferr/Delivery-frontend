@@ -1,0 +1,147 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background: rgb(0, 0, 0);
+}
+
+.Banners {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-bottom: 32px;
+
+  .Banner-image:first-child {
+    margin-right: 30px;
+  }
+
+  img {
+    width: 540px;
+    height: 188px;
+    border-radius: 15px;
+  }
+
+}
+
+.Food-categories {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 40px;
+
+  .Food-type {
+    width: 160px;
+    height: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #EDEEF2;
+    border-radius: 16px;
+    
+    background: none;
+
+    margin: 0 15px;
+
+    &:hover {
+      border: 1px solid #697BFF;
+      background: #F8F9FF;
+    }
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-top: 14px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: Bold;
+      margin: 12px;
+    }
+  }
+
+  .selected {
+    border: 2px solid #4E60FF;
+    color: #4E60FF;
+    background: #F3F4FF;
+
+    &:hover {
+      border: 2px solid #4E60FF;
+      background: #F3F4FF;
+    }
+  }
+}
+
+.Food-options {
+  width: 1110px;
+
+  
+
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.Food {
+  min-width: 540px;
+  height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #EDEEF2;
+  border-radius: 10px;
+  background: none;
+
+  margin: 16px 30px 30px 0;
+
+  &:hover {
+    border: 1px solid #697BFF;
+  }
+
+  .Food-infos {
+    display: flex;
+    align-items: center;
+
+    .Food-image {
+      width: 80px;
+      height: 80px;
+      background: #979797;
+      border-radius: 10px;
+      margin: 20px;
+    }
+  
+    div {
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      h3 {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .Food-price {
+    margin: 20px;
+    margin-top: 70px;
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

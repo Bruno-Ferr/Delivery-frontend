@@ -1,0 +1,40 @@
+{
+  "foods": [
+    {
+      "id": 2,
+      "name": "Veggie",
+      "type": "healthy",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
+      "available": true,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sushi",
+      "type": "japanese",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.90",
+      "available": false,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "id": 4,
+      "name": "Pepperoni",
+      "type": "pizza",
+      "description": "Pizza de pepperoni",
+      "price": "13.70",
+      "available": false,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "id": 5,
+      "name": "Margherita",
+      "type": "pizza",
+      "description": "Pizza de Margherita",
+      "price": "13.70",
+      "available": false,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    }
+  ]
+}
